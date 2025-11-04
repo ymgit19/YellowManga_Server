@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/Yell')
+mongoose.connect('mongodb+srv://ymgithub19_db_user:jRYmFveXv33B8mPy@yellowmangadb.u1h8b0i.mongodb.net/?appName=YellowMangaDB')
     .then(() => {
         console.log("Databases has been connected");
     })
